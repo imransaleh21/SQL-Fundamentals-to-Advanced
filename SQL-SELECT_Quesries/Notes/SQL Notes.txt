@@ -1,0 +1,7 @@
+FROM 
+    -> WHERE 
+        -> GROUP BY 
+            -> HAVING 
+                -> SELECT DISTINCT 
+                    -> ORDER BY 
+                        -> LIMIT/TOP
