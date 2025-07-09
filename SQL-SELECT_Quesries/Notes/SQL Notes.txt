@@ -1,4 +1,4 @@
-This is the SQL execution flow:
+1. This is the SQL execution flow:
 FROM 
     -> WHERE 
         -> GROUP BY 
@@ -6,3 +6,5 @@ FROM
                 -> SELECT DISTINCT 
                     -> ORDER BY 
                         -> LIMIT/TOP
+
+2. DELETE Vs TRUNCATE
