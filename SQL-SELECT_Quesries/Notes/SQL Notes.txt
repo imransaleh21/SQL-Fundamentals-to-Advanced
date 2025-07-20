@@ -8,3 +8,8 @@ FROM
                         -> LIMIT/TOP
 
 2. DELETE Vs TRUNCATE
+
+3. SET -> Rows
+   JOIN -> Columns
+
+4. 
