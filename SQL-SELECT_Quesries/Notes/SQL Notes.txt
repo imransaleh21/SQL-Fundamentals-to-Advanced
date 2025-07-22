@@ -11,5 +11,3 @@ FROM
 
 3. SET -> Rows
    JOIN -> Columns
-
-4. 

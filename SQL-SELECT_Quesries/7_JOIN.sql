@@ -26,3 +26,10 @@ SELECT customers.id, order_id, sales, Country, score
 FROM customers 
 FULL JOIN orders
 ON id = customer_id
+
+---LEFT JOIN to get unmatch data---
+SELECT id, first_name, score, customer_id, order_date
+FROM customers
+LEFT JOIN orders
+on id = customer_id
+WHERE customer_id is NULL;
